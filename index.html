@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Table Creation</title>
+</head>
+
+<body>
+    <div class="input_section">
+        <form action="">
+            <h4>Assignment2</h4>
+            <h2>Table Creation with Numbers</h2>
+            <div class="first_number">
+                <label for="first_number">1. Enter the first number</label>
+                <input type="number" name="first_number" id="first_number">
+            </div>
+            <div class="increment_decrement">
+                <label for="increment_decrement">2. Enter an increment or a decrement for columns</label>
+                <input type="number" name="increment_decrement" id="increment_decrement">
+            </div>
+            <div class="rows_columns">
+                <label for="rows">3. Number of rows</label>
+                <input type="number" name="rows" id="rows" step="1">
+                <label for="columns">, columns</label>
+                <input type="number" name="columns" id="columns" step="1">
+            </div>
+        </form>
+        <button onclick="CreateTable()">Create Table</button>
+        <div id="message"></div>
+    </div>
+    <div id="table_section">
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

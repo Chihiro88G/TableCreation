@@ -1,0 +1,71 @@
+body {
+    background-image: url(flat-arabic-pattern-background_79603-1826.webp);
+    margin: 0 auto;
+    font-family: system-ui;
+}
+
+.input_section {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+#table_section {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.input_section,
+#table_section {
+    backdrop-filter: blur(3px);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+input[type=number] {
+    width: 5em;
+}
+
+table {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.first_number,
+.increment_decrement,
+.rows_columns {
+    text-align: left;
+    margin-left: 25%;
+}
+
+button {
+    padding: 5px;
+    background-color: rgb(175, 238, 175);
+    text-decoration: none;
+    border-radius: 7px;
+    box-shadow: 2px 2px gray;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#message {
+    color: red;
+}
+
+@media screen and (min-width: 1540px) {
+
+    .first_number,
+    .increment_decrement,
+    .rows_columns {
+        text-align: left;
+        margin-left: 35%;
+    }
+}
